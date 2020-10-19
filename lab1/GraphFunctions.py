@@ -7,7 +7,15 @@ def edge_list_to_adjacency_list(graph):
     # graph format V,L V-number of vertices L-list of edges
     adjacencyList = [[] for i in range(graph[0] + 1)]
     for i in graph[1]:
-        adjacencyList[i[0]].append(i[2])
-        adjacencyList[i[1]].append(i[2])
+        adjacencyList[i[0]].append((i[1], i[2]))
+        adjacencyList[i[1]].append((i[0], i[2]))
     return adjacencyList
+
+
+"""" function uses dfs algorithm to finding patch from "start" to "end" with no using edges
+with in weight less than limit, if find patch return true else return false """
+
+
+def dfs_limited(graph, limit, start, end):
+
 

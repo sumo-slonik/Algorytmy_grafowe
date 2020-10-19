@@ -2,7 +2,7 @@ from dimacs import loadWeightedGraph
 from FindUnion import union
 from sys import argv
 from Testing import *
-
+from GraphFunctions import edge_list_to_adjacency_list
 '''This function make union class in size of vertex number 
     and then sorted edges in the descending desire, then we starting
     making union from the most weight edge and check is the start and and vertex in the
@@ -12,6 +12,12 @@ from Testing import *
 
 def find_union_method(name):
     Graph = loadWeightedGraph(name)
+    # print(Graph)
+    # print()
+    # print(edge_list_to_adjacency_list(Graph))
+    # print("_______________________")
+    # if(Graph[0]==10):
+    #     input()
     Unia = union(Graph[0])
     Graph[1].sort(reverse=True, key=lambda x: x[2])
     result = None
