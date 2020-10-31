@@ -5,4 +5,4 @@ Rozwiązania zadań labolatoryjnych z przedmiotu Algorytmy Grafowe w ramach stud
 | Labolatorium nr| Temat |
 |:-------------:|:-------------:|
 | [Laboratorium 1](https://github.com/sumo-slonik/Algorytmy_grafowe/tree/main/lab1) | Problem przewodnika turystycznego
-| [Laboratorium 2](303) | ###
+| [Laboratorium 2](https://github.com/sumo-slonik/Algorytmy_grafowe/tree/main/lab2) | Znajdowanie maksymalnego przepływu w grafie metodą Forda–Fulkersona
