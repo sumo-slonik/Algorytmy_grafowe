@@ -2,10 +2,10 @@
 Rozwiązania zadań labolatoryjnych z przedmiotu Algorytmy Grafowe w ramach studiów inżynierskich na kierunku informatyka (AGH WIET ścieżka algorytmiczna)
 
 ### Struktura projektu jest następująca :
-folder Graphs - tutaj znajdują się pliki z grafami dostarczonymi do testowania zaimplementowanych algorytmów
-folder Functions - tutaj znajdują się częściej używane funkcje i struktury danych przydatne do implementacji algorytmów w tym dostarczone do wczytywania grafów
-funkcje (plik dimacs.py)
-labX - tutaj znajdują się rozwiązania X laboratorium którego temat znajduje się poniżej
+katalog <B>Graphs</B> - tutaj znajdują się pliki z grafami dostarczonymi do testowania zaimplementowanych algorytmów <br>
+katalog <B>Functions</B> - tutaj znajdują się częściej używane funkcje i struktury danych przydatne do implementacji algorytmów w tym dostarczone do wczytywania grafów
+(plik dimacs.py) <br>
+katalog <B>labX<B> - tutaj znajdują się rozwiązania X laboratorium którego temat znajduje się poniżej <br>
 
 
 ## Zbiór rozwiązań
