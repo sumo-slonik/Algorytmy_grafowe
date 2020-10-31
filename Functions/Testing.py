@@ -21,16 +21,19 @@ this function. Function returns name of file and result of test True if passed F
 to have correct answer in the first line. Example txt file is graphs/flow/simple.txt
 '''
 
-def testing(function,dir):
+
+def testing(function, dir):
     directory = argv
     directory = str(directory)
-    directory = directory[2:-14] + "graphs/" + dir +"/"
+    directory = directory[2:-14] + "graphs/" + dir + "/"
     print(directory)
+    result = True
     for i in os.listdir(directory):
-        print(dir+ i, end=" ")
-        if int(good_solution(directory +"/"+ i)) != int(function(directory+i)):
-            good_solution(dir+ i)
+        print(i, end=" ")
+        if int(good_solution(directory + i)) != int(function(directory + i)):
+            print("correct", good_solution(directory + i), "yours", int(function(directory + i)),end=" ")
             print(False)
-            return False
-        print(True)
-    return True
+            result = False
+        else:
+            print(True)
+    return result
