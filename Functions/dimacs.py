@@ -11,7 +11,7 @@ def loadCNFFormula( name ):
      F -- list of clauses"""
 
   V = 0
-  L = []  
+  L = []
 
   f = open( name, "r" )
   lines = f.readlines()

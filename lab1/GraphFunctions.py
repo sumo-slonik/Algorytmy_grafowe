@@ -17,5 +17,15 @@ with in weight less than limit, if find patch return true else return false """
 
 
 def dfs_limited(graph, limit, start, end):
+    # we give graph as adjacency list in format [[(V,W)] in n index we have list of edges where V is adjacent vertex
+    # and W is weight of edge
 
-
+    def DFS_Reku(g, l, s, e, colors):
+        colors[s] = 'grey'
+        if s == e:
+            return True
+        for i in g[s]:
+            if colors[i[0]] == "white" and i[1] >= limit:
+                return DFS_Reku(g, l, i[0], e, colors)
+        colors[s] = "black"
+    return DFS_Reku(graph, limit, start, end, ["white"] * len(graph)) or False

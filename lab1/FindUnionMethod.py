@@ -12,12 +12,6 @@ from GraphFunctions import edge_list_to_adjacency_list
 
 def find_union_method(name):
     Graph = loadWeightedGraph(name)
-    # print(Graph)
-    # print()
-    # print(edge_list_to_adjacency_list(Graph))
-    # print("_______________________")
-    # if(Graph[0]==10):
-    #     input()
     Unia = union(Graph[0])
     Graph[1].sort(reverse=True, key=lambda x: x[2])
     result = None
