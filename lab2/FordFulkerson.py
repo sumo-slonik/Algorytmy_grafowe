@@ -4,6 +4,7 @@ from Functions.dimacs import *
 '''
 This is function to find max flow in directed weight graph using Ford–Fulkerson method.
 Max flow is returned as result of function,if flow is not find is result is equal to 0
+Uses matrix representation of graph
 '''
 def FordFulkerson(graf, source, slink):
     flow = 0

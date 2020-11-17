@@ -30,8 +30,9 @@ def testing(function, dir):
     result = True
     for i in os.listdir(directory):
         print(i, end=" ")
-        if int(good_solution(directory + i)) != int(function(directory + i)):
-            print("correct", good_solution(directory + i), "yours", int(function(directory + i)),end=" ")
+        actual = int(function(directory + i))
+        if int(good_solution(directory + i)) != actual:
+            print("correct", good_solution(directory + i), "yours",actual,end=" ")
             print(False)
             result = False
         else:
