@@ -12,4 +12,6 @@ katalog <B>labX</B> - tutaj znajdują się rozwiązania X laboratorium którego 
 | Labolatorium nr| Temat |
 |:-------------:|:-------------:|
 | [Laboratorium 1](https://github.com/sumo-slonik/Algorytmy_grafowe/tree/main/lab1) | Problem przewodnika turystycznego
-| [Laboratorium 2](https://github.com/sumo-slonik/Algorytmy_grafowe/tree/main/lab2) | Znajdowanie maksymalnego przepływu w grafie metodą Forda–Fulkersona
+| [Laboratorium 2](https://github.com/sumo-slonik/Algorytmy_grafowe/tree/main/lab2) | Znajdowanie maksymalnego przepływu w grafie metodą Forda–Fulkersona,<br>znajdowanie spójności krawędziowej z wykorzystaniem tego algorytmu
+| [Laboratorium 3](https://github.com/sumo-slonik/Algorytmy_grafowe/tree/main/lab3) | Spójność krawędziowa algorytmem Stoera-Wagnera 
+
